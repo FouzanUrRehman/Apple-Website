@@ -1,0 +1,697 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background: url(./hero_apple_vision_pro__e8407ehady6i_medium.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    text-align: center;
+    background-color: rgb(67,67,68,0.9);
+    color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.674);
+}
+
+.img1{
+    height: 16px;
+    width: 16px;
+}
+
+.img2{
+    height: 16px;
+    width: 16px;
+}
+
+.img3{
+    height: 16px;
+    width: 16px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 12px;
+    font-size: small;
+    margin-top: 1px;
+    margin: 4px;
+    height: 10px;
+}
+
+
+.vsn{
+    margin-left: 550px;
+    margin-top: 358px;
+}
+
+.vsn h1{
+    margin-left: -120px;
+    font-weight: lighter;
+}
+
+.vsn h2{
+    text-align: left;
+    color: grey;
+    margin-left: -55px;
+    font-weight: lighter;
+    margin-top: 12px;
+}
+
+.vsn ul{
+    list-style-type: none;
+}
+
+.gh{
+    margin-left: 100px;
+}
+
+
+.lrn{
+    margin-left: 630px;
+    margin-top: 10px;
+}
+
+.lrn a{
+    text-decoration: none;
+    color: #0066CC;
+   font-size: larger;
+}
+
+.lrn a:hover{
+    text-decoration: underline;
+}
+
+.ip img{
+    background: url(./hero_iphone15pro__i70z9oz3hj2i_medium.jpg);
+    background-repeat: no-repeat;  
+    width: 1340px;
+    height: 700px;
+    margin-top: 20px;
+}
+
+.ip h1{
+    margin-top: -650px;
+    color: white    ;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+}
+
+.ip h2{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    margin-top: 10px;
+    
+}
+
+.ip ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.ip ul li{
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ip a{
+    text-decoration: none;
+    color: #0066CC;
+}
+
+.ip a:hover{
+    text-decoration: underline;
+}
+
+.iph img{
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 160px;
+}
+
+.iph h1{
+    text-align: center;
+    margin-top: -560px;
+    font-size: 60px;
+}
+.iph h2{
+    text-align: center;
+    padding: 15px;
+    font-weight: lighter;
+    font-size: 27px;
+}
+
+.iph ul{
+    list-style-type: none;
+    margin-left: 570px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.iph li{
+    display: inline-block;
+}
+
+.iph a{
+    text-decoration: none;
+    color: #0066CC;
+    padding-left: 12px;
+}
+
+.iph a:hover{
+    text-decoration: underline;
+    color: #0066CC;
+    padding-left: 12px;
+}
+
+.d{
+   margin-top: 300px;
+    background-color: white;
+    margin-left: 60px;
+}
+
+.d1{
+    max-width: 50%;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+      display: block; /* Remove any default inline spacing */
+      margin-left: 100px;
+      display: inline-block;
+}
+
+.d2{
+    max-width: 50%;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+      height: auto; /* Maintain the image's aspect ratio */
+      display: block; /* Remove any default inline spacing */
+      margin-left: 10px;
+      display: inline-block;
+}
+
+
+section hr{
+    width: 1000px;
+    margin: auto;
+    border: -3px solid gray ;
+}
+
+.bf{
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 12px;
+    color: gray;
+}
+
+.bf1 li{
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bf1 a{
+    color: gray;
+}
+/* part one */
+.ft{
+    margin-left: 170px;
+    margin-top: -10px;
+    font-size: 13px;
+}
+
+.ft ul{
+    list-style: none;
+} 
+
+.ft ul li{
+    padding-bottom: 10px;
+}
+
+.ft a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ft a:hover{
+    text-decoration: underline;
+}
+
+/* part two */
+
+.ft1{
+    margin-left: 170px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.ft1 ul{
+    list-style: none;
+
+} 
+
+.ft1 ul li{
+    padding-bottom: 10px;
+}
+
+.ft1 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ft1 a:hover{
+    text-decoration: underline;
+}
+
+/* part three */
+
+
+.ft2{
+    font-size: 13px;
+    margin-left: 370px;
+    margin-top: -444px;
+}
+
+.ft2 ul{
+    list-style: none;
+} 
+
+.ft2 ul li{
+    padding-bottom: 10px;
+}
+
+.ft2 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ft2 a:hover{
+    text-decoration: underline;
+}
+
+/* part four */
+
+.ft3{
+    font-size: 13px;
+    margin-left: 370px;
+    margin-top: 12px;
+}
+
+.ft3 ul{
+    list-style: none;
+} 
+
+.ft3 ul li{
+    padding-bottom: 10px;
+}
+
+.ft3 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ft3 a:hover{
+    text-decoration: underline;
+}
+
+/* part five */
+
+.ft4{
+    font-size: 13px;
+    margin-left: 570px;
+    margin-top: -364px;
+}
+
+.ft4 ul{
+    list-style: none;
+} 
+
+.ft4 ul li{
+    padding-bottom: 10px;
+}
+
+.ft4 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ft4 a:hover{
+    text-decoration: underline;
+}
+
+/* pat six */
+
+.ft5{
+    font-size: 13px;
+    margin-left: 770px;
+    margin-top: -301px;
+}
+
+.ft5 ul{
+    list-style: none;
+} 
+
+.ft5 ul li{
+    padding-bottom: 10px;
+}
+
+.ft5 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ft5 a:hover{
+    text-decoration: underline;
+}
+
+/* part seven */
+
+.ft6{
+    font-size: 13px;
+    margin-left: 770px;
+    margin-top: 10px;
+}
+
+.ft6 ul{
+    list-style: none;
+} 
+
+.ft6 ul li{
+    padding-bottom: 10px;
+}
+
+.ft6 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ft6 a:hover{
+    text-decoration: underline;
+}
+
+/* part eight */
+
+.ft7{
+    font-size: 13px;
+    margin-left: 770px;
+    margin-top: 10px;
+}
+
+.ft7 ul{
+    list-style: none;
+} 
+
+.ft7 ul li{
+    padding-bottom: 10px;
+}
+
+.ft7 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ft7 a:hover{
+    text-decoration: underline;
+}
+
+/* part nine */
+
+.ft8{
+    font-size: 13px;
+    margin-left: 770px;
+    margin-top: 10px;
+}
+
+.ft8 ul{
+    list-style: none;
+} 
+
+.ft8 ul li{
+    padding-bottom: 10px;
+}
+
+.ft8 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ft8 a:hover{
+    text-decoration: underline;
+}
+
+/* part ten */
+
+.ft9{
+    font-size: 13px;
+    margin-left: 970px;
+    margin-top: -381px;
+}
+
+.ft9 ul{
+    list-style: none;
+} 
+
+.ft9 ul li{
+    padding-bottom: 10px;
+}
+
+.ft9 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ft9 a:hover{
+    text-decoration: underline;
+}
+
+/* part eleven */
+
+.ft10{
+    font-size: 13px;
+    margin-left: 970px;
+    margin-top: 10px;
+}
+
+.ft10 ul{
+    list-style: none;
+} 
+
+.ft10 ul li{
+    padding-bottom: 10px;
+}
+
+.ft10 a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ft10 a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: 13px;
+    color: gray;
+    margin-left: 170px;
+}
+
+footer p a{
+    font-size: 13px;
+    color: #0066CC;
+}
+
+.ftt{
+    font-size: 13px;
+    margin-top: -31px;
+    margin-left: 490px;
+}
+
+.ftt a{
+    text-decoration: none;
+    color: gray;
+}
+
+.ftt a:hover{
+    text-decoration: underline;
+}
+
+.ftt li{
+    display: inline-block;
+    color: gray ;
+}
+
+.p{
+    margin-left: 1090px;
+    font-size: 13px;
+    margin-top: -16px;
+}
+
+.p a{
+    text-decoration: none;
+    color: gray;
+    
+}
+
+.p a:hover{
+    text-decoration: underline;
+}
+
+.id{
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    display: flex;
+}
+
+.b{
+    margin-left: 260px;
+    margin-top: -100px;
+}
+
+.b button{
+    color: black;
+    padding: 13px;
+    border-radius: 50px;
+    width: 140px;
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.k{
+    margin-left: 450px;
+    margin-top: -32px;
+    font-size: 20px;
+    color: white;
+}
+
+.bl{
+    margin-left: 550px;
+    margin-top: 90px;    
+}
+
+.bl input{
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.h{
+    margin-left: 360px;
+    margin-top: -420px;
+}
+
+.e{
+    margin-left: 300px;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.w{
+    margin-left: 330px;
+}
+
+.w ul{
+    list-style-type: none;
+}
+
+.w li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.w a{
+    color: #0066CC;
+    text-decoration: none;
+}
+
+.w a:hover{
+    color: #0066CC;
+    text-decoration: underline;
+}
+
+.h1{
+    margin-left: 890px;
+    margin-top: -122px;
+}
+
+.x{
+    margin-left: 850px;
+    color: black;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.c{
+    margin-left: 860px;
+}
+
+.c ul{
+    list-style-type: none;
+}
+
+.c li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.c a{
+    color: #0066CC;
+    text-decoration: none;
+}
+
+.c a:hover{
+    color: #0066CC;
+    text-decoration: underline;
+}
+
+.gn{
+    margin-left: 150px;
+}
+
+.g{
+    display: inline-block;
+}
+
+.g1{
+    display: inline-block;
+}
+
+hr{
+    width: 1000px;
+    margin: auto;
+    border: -3px solid gray ;
+}
+
+.lt h1{
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    font-weight: 200;
+}
+
+.lt a{
+    text-decoration: none;
+    color: #0066CC;
+}
+
+.lt a:hover{
+    text-decoration: underline;
+}
